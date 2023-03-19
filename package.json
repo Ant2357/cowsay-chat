@@ -1,0 +1,19 @@
+{
+  "type": "module",
+  "name": "cowsay-chat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "bing-chat": "^0.2.3",
+    "cowsayjs": "^2.0.0",
+    "dotenv": "^16.0.3",
+    "ora": "^6.1.2"
+  }
+}
