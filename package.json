@@ -12,7 +12,7 @@
   "license": "MIT",
   "dependencies": {
     "bing-chat": "^0.2.3",
-    "cowsayjs": "^2.0.0",
+    "cowsay2": "^2.0.4",
     "dotenv": "^16.0.3",
     "ora": "^6.1.2"
   }

@@ -1,7 +1,7 @@
 import dotenv from 'dotenv'
 import { oraPromise } from 'ora'
 import { BingChat } from 'bing-chat'
-import { cowsay } from 'cowsayjs'
+import cowsay from 'cowsay2'
 
 import { createInterface } from 'readline';
 
@@ -37,6 +37,7 @@ function readUserInput(question) {
     res = await oraPromise(api.sendMessage(prompt, res), {
       text: prompt
     });
-    console.log(cowsay(res.text));
+
+    console.log(cowsay.say(res.text));
   }
 })();
