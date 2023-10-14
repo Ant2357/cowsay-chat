@@ -1,6 +1,6 @@
 import dotenv from 'dotenv'
 import { oraPromise } from 'ora'
-import { BingChat } from 'bing-chat'
+import { BingChat } from 'bing-chat-rnz'
 import cowsay from 'cowsay2'
 
 import { createInterface } from 'readline';

@@ -11,9 +11,9 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "bing-chat": "^0.2.3",
+    "bing-chat-rnz": "^0.2.6",
     "cowsay2": "^2.0.4",
-    "dotenv": "^16.0.3",
-    "ora": "^6.1.2"
+    "dotenv": "^16.3.1",
+    "ora": "^7.0.1"
   }
 }
